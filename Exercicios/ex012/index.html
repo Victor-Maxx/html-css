@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videos com HTML5</title>
+</head>
+<h1>Inserindo videos hospedados localmente</h1>
+<p>Este vídeo está hospedando no meu próprio servidor.</p>
+
+<video controls width="200px" poster="imagens/folhas-200px.jpg">
+  <source src="midia/meu-video.mp4" type="video/mp4">
+  <!--Começa de cima pra baixo.-->
+  <!--obs:Pesquisar como deixa uma imagens da proporção do video.-->
+  <source src="midia/meu-video.mkv" type="video/mkv">
+  <source src="midia/meu-video.webm" type="video/web">
+</video>
+
+<h1>Inserindo videos do YouTube</h1>
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/8Wfibc0o1xg" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe></div>
+
+<body>
+
+</body>
+
+</html>
